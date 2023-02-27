@@ -1,0 +1,121 @@
+<html>
+	<head>
+		<link href="style.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+		<title>ROHIT MURALI resume</title>
+	</head>
+
+	<body>
+		<header id="header">
+			<!-- resume header with your name and title -->
+			<h1>ROHIT MURALI</h1>
+			<hr>
+			ROBOTICS SOFTWARE ENGINEER (OWLAI)
+			<hr>
+		</header>
+		<main>
+			<article id="mainLeft">
+				<section>
+					<h2>CONTACT</h2>
+					<!-- contact info including social media -->
+                    <p>
+                        <i class="fa fa-envelope" aria-hidden="true"></i>
+                        <a href="mailto:rohitm@owlai.us">rohitm@owlai.us</a>
+                    </p>
+                    <p>
+                        <i class="fab fa-github" aria-hidden="true"></i>
+                        <a href="github.com/rohitmurali8">rohitmurali8</a>
+                    </p>
+                    <p>
+                        <i class="fab fa-linkedin" aria-hidden="true"></i>
+                        <a href="linkedin.com/rohitmurali8">rohitmurali8</a>
+                    </p>
+				</section>
+				<section>
+					<h2>SKILLS</h2>
+					<!-- your skills -->
+                    <p>
+                        <b>Coding & Software Tools:</b> C++, Python, C, Git, LINUX, VS Code, MATLAB, KiCAD, Docker, BASH, CMAKE
+                    </p>
+                    <p>
+                        <b>Robotics & Machine Learning:</b> ROS, RViz, Gazebo, OpenCV, Tensorflow, PyTorch, Localization, SLAM
+                    </p>
+				</section>            
+
+				<section>
+					<h2>WORK EXPERIENCE</h2>
+					<!-- your work experience -->
+                        <h3>ROBOTICS SOFTWARE ENGINEER</h3>
+                        <p>
+                                OwlAI | July 2022 - Present
+                        </p>
+                        <ul>
+                                <li>Analysing pixel required for Object Detection using YOLOv5 based Instance Segmentation. Fine tuning YOLO for far distance based small object detection to consistently classify and detect pedestrians at farther distances</li>
+                                <li>Developed ROS based pipeline for integrating Object Detection and Ranging DL model inference on thermal images using TensorRT. Integrated the pipeline with Docker and implemented the system on NVIDIA Jetson ORIN</li>
+                                <li>Developed Autonomous Emergency Braking software on prototype robot using ZED camera system with ROS</li>
+                                <li>Testing monocular camera based Visual Odometry and SLAM methods (SC-Depth, ORBSLAM, DeepVO) to build map and localize robots on KITTI/TUM datasets. Working to adapt these algorithms for Thermal Cameras</li>
+                        </ul>
+                        <h3>GRADUATE RESEARCH ASSISTANT</h3>
+                        <p>
+                                Virginia Tech | January 2020 - May 2022
+                        </p>
+                        <ul>
+                                <li>Predicted acoustic target bearing for underwater robots(AUV) using real world data by optimizing beamforming algorithms. Obtained accuracy of more than 90\% on predictions for targets within $\pm$ 60 degrees relative to AUV</li>
+                                <li>Developed Hardware & Software components of Perception stack to collect target data using sensor onboard AUV</li>
+                                <li>Tested noise reduction filter optimization with MATLAB toolboxes & Deep Learning models (Autoencoder, UNET \& SEGAN) using Tensorflow to suppress AUV motor noise in acoustic data for accurate bearing prediction</li>
+                        </ul>
+                        <h3>SOFTWARE ENGINEERING INTERN</h3>
+                        <p>
+                                Sardar Patel Robotics and Automation | August 2017 - May 2019
+                        </p>
+                        <ul>
+                                <li>Built software for motion planning with manual & autonomous robots to navigate obstacles & detect targets</li>
+                                <li>Performed real time object detection using OpenCV image processing functions. Optimized the Faster-RCNN, SSD & YOLO models by fine tuning hyperparameters to detect target in various lighting conditions with 80% accuracy</li>
+                                <li>Led development of Localization & Path Planning algorithms for autonomous robot motion using Sensor Fusion</li>
+                        </ul>                        
+				</section>
+            </article>
+            <article id="mainRight">
+				<section>
+					<h2>ABOUT</h2>
+					<!-- about you -->
+                    <p> 
+                        My areas of interest incorporate Robotics, Machine Learning and Computer Vision.  
+                        My goal is to work in developing software for Autonomous and Smart Systems which can be used in a variety of fields such as helping people by making their daily lives easier.
+
+                    </p>
+				</section>
+                <section>
+					<h2>EDUCATION</h2>
+					<!-- your education -->
+                    <h3>Master of Science (ECE) - Virginia Tech (CGPA: 3.57/4) Aug 2019 – May 2022</h3>
+                    <h3>Bachelor of Engineering (EXTC) - University of Mumbai (CGPA: 8.56/10) July 2015 – May 2019</h3>
+				</section>                
+				<section>
+					<h2>PROJECTS</h2>
+					<!-- your projects -->
+                        <h3>Adaptive Monte-Carlo Algorithm for Robot Localization (Tools - C++, ROS, Gazebo)</h3>
+                        <ul>
+                                <li>Executed simulations for localization of robot navigating a path in Gazebo using the ROS navigation stack for robot path planning from start to goal position by integrating AMCL ROS package which uses Particle Filters</li>
+                        </ul>
+                        <h3>Browser based Real Time Object Detection (Tools - Python, TensorflowJS)</h3>
+                        <ul>
+                                <li>Hosted a local webpage using Javascript to capture images from webcam. Fine tuned layers of MobileNet object detection model in TensorFlowJS integrated with webpage for classification of images captured from webcam</li>
+                        </ul>
+                        <h3>Deep Reinforcement Learning for Obstacle Avoidance (Tools - Python, Keras, OpenCV)</h3>
+                        <ul>
+                                <li>Designed a custom image environment where the agents, obstacles and environment are simulated as blobs using the PIL and OpenCV library in order to train an agent to traverse its path towards a goal using Deep Q Learning</li>
+                        </ul>
+                        <h3>Autonomous Driving Simulation using Deep Learning (Tools - Python, Keras, CARLA)</h3>
+                        <ul>
+                                <li>Simulated mapping of camera data to steering command by optimizing RESNET model to control car navigation</li>
+                        </ul>
+                        <h3>Fullstate Feedback Controller for Unknown System Identification (Tools - MATLAB)</h3>
+                        <ul>
+                                <li>Estimated State Space model of a digital controller using model input/output values for frequency domain system identification. Designed fullstate feedback LQR controller by estimating the system states using Kalman filter</li>
+                        </ul>                    
+				</section>                
+			</article>
+		</main>
+	</body>
+</html>
